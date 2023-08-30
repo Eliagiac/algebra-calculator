@@ -7,5 +7,11 @@ namespace Algebra_Calculator.Controllers
     [ApiController]
     public class ExpressionController : ControllerBase
     {
+        [HttpGet("expresison")]
+        [ProducesResponseType(typeof(Number), StatusCodes.Status200OK)]
+        public IActionResult Factorise(Expression expression)
+        {
+            return Ok(Factorise(expression));
+        }
     }
 }

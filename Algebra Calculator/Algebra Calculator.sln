@@ -3,18 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algebra Calculator", "Algebra Calculator\Algebra Calculator.csproj", "{969F2068-647E-43F2-A86E-A27BAC59AFC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algebra Calculator", "Algebra Calculator\Algebra Calculator.csproj", "{969F2068-647E-43F2-A86E-A27BAC59AFC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algebra Calculator Tests", "Algebra Calculator Tests\Algebra Calculator Tests.csproj", "{9E98F22E-D626-45BC-94E2-E43B447D0303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{969F2068-647E-43F2-A86E-A27BAC59AFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{969F2068-647E-43F2-A86E-A27BAC59AFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969F2068-647E-43F2-A86E-A27BAC59AFC7}.Debug|x64.ActiveCfg = Debug|x64
+		{969F2068-647E-43F2-A86E-A27BAC59AFC7}.Debug|x64.Build.0 = Debug|x64
 		{969F2068-647E-43F2-A86E-A27BAC59AFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{969F2068-647E-43F2-A86E-A27BAC59AFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969F2068-647E-43F2-A86E-A27BAC59AFC7}.Release|x64.ActiveCfg = Release|x64
+		{969F2068-647E-43F2-A86E-A27BAC59AFC7}.Release|x64.Build.0 = Release|x64
+		{9E98F22E-D626-45BC-94E2-E43B447D0303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E98F22E-D626-45BC-94E2-E43B447D0303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E98F22E-D626-45BC-94E2-E43B447D0303}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9E98F22E-D626-45BC-94E2-E43B447D0303}.Debug|x64.Build.0 = Debug|Any CPU
+		{9E98F22E-D626-45BC-94E2-E43B447D0303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E98F22E-D626-45BC-94E2-E43B447D0303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E98F22E-D626-45BC-94E2-E43B447D0303}.Release|x64.ActiveCfg = Release|Any CPU
+		{9E98F22E-D626-45BC-94E2-E43B447D0303}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
